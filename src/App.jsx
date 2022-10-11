@@ -1,9 +1,12 @@
 import React from "react"
+import Header from "./components/Header/Header.jsx"
+import { GlobalStyle } from "./components/reset/reset.jsx";
 
 export default function App(){
   return(
     <div>
-      <h1>oi</h1>
+      <GlobalStyle/>
+      <Header/>
     </div>
   )
 }
