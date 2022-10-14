@@ -1,9 +1,10 @@
 import React from "react";
 
-export default function Gender(){
+export default function Home(){
     return(
         <div>
-            <h1>oi</h1>
+            <h1>Home</h1>
+            <p></p>
         </div>
     )
 }
