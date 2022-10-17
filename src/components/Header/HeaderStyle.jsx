@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { Link } from "react-router-dom"
 
 export const HeaderContainer = styled.div`
-    
 ` 
 
 export const Title = styled.h1`
@@ -14,6 +13,7 @@ export const Div = styled.header`
     justify-content: space-between;
     align-items: center;
     height: 10vh;
+    background-color: var(--secondary-color);
 `
 
 export const Ul = styled.ul`

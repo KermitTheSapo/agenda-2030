@@ -10,6 +10,10 @@ export const GlobalStyle = createGlobalStyle`
     }
     &:root{
         --primary-color: #009EDB;
+        --secondary-color: #D9E5D6;
+        --third-color: #EDDEA4;
+        --health-color: #E4FDE1;
+        --infrastructure-color: #C2CFB2;
         --font: black;
     }
 `
