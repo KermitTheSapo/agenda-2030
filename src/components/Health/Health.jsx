@@ -18,13 +18,13 @@ export default function Health() {
                 <li>3.1 Até 2030, reduzir a taxa de mortalidade materna global para menos de 70 mortes por 100.000 nascidos vivos</li>
                 <li>3.2 Até 2030, acabar com as mortes evitáveis de recém-nascidos e crianças menores de 5 anos, com todos os países objetivando reduzir a mortalidade neonatal para pelo menos 12 por 1.000 nascidos vivos e a mortalidade de crianças menores de 5 anos para pelo menos 25 por 1.000 nascidos vivos</li>
                 <li>3.3 Até 2030, acabar com as epidemias de AIDS, tuberculose, malária e doenças tropicais negligenciadas, e combater a hepatite, doenças transmitidas pela água, e outras doenças transmissíveis</li>
-                <a href="">Clique mais para saber!</a>
+                <a href="https://brasil.un.org/pt-br/sdgs/3" target="_blank">Clique mais para saber!</a>
             </S.Ul>
             <S.Article>
                 <h2>Saúde do Paulista incentiva procura por vacina contra a poliomielite</h2>
                 <p>Em Paulista, a Secretaria Municipal de Saúde irá realizar, de 17 a 21 de outubro, uma programação de vacinação contra a poliomielite, no Paulista North Way Shopping, no Centro, das 9h às 16h. A iniciativa tem como objetivo incentivar a procura pela vacina, que tem sido baixa desde quando começou a campanha nacional de vacinação contra a pólio. Na ocasião, a gestão também aplicará outras vacinas de rotina, como parte da campanha de atualização do cartão das crianças.</p>
-                <p>Em Paulista, a Secretaria Municipal de Saúde irá realizar, de 17 a 21 de outubro, uma programação de vacinação contra a poliomielite, no Paulista North Way Shopping, no Centro, das 9h às 16h. A iniciativa tem como objetivo incentivar a procura pela vacina, que tem sido baixa desde quando começou a campanha nacional de vacinação contra a pólio. Na ocasião, a gestão também aplicará outras vacinas de rotina, como parte da campanha de atualização do cartão das crianças.</p>
-                <a href="">Clique mais para saber!</a>
+                <p>“Atualmente, temos um quadro de uma procura baixa, enquanto que a doença está se proliferando em alguns países. Diante disso, a ideia é incentivar os pais e responsáveis a procurar pela vacina”, declarou a coordenadora do Programa Nacional de Imunizações (PNI) em Paulista, Giuliene Cavalcanti.</p>
+                <a href="https://www.paulista.pe.gov.br/site/noticias/detalhes/9971" target="_blank">Clique mais para saber!</a>
             </S.Article>
         </S.Div>
 

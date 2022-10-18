@@ -23,7 +23,7 @@ export const Ul = styled.ul`
 `
 
 export const Nav = styled.nav`
-    width: 40%;
+    width: 70%;
 `
 
 export const LinkStyle = styled(Link)`
