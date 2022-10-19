@@ -8,3 +8,10 @@ export const Div = styled.div`
     background-color: var(--third-color);
     height: 90vh;
 `
+
+export const Img = styled.img`
+    width: 90%;
+    @media screen and (min-width: 1000px) {
+        width: 60%;
+    }
+`

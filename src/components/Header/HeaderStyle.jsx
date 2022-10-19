@@ -6,6 +6,15 @@ export const HeaderContainer = styled.div`
 
 export const Title = styled.h1`
     color: var(--font);
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+`
+export const TitleMobile = styled.h1`
+    color: var(--font);
+    @media screen and (min-width: 769px) {
+        display: none;
+    }
 `
 
 export const Div = styled.header`
@@ -24,10 +33,38 @@ export const Ul = styled.ul`
 
 export const Nav = styled.nav`
     width: 70%;
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
 `
 
 export const LinkStyle = styled(Link)`
     text-decoration: none;
     color: var(--primary-color);
     font-size: 1.5rem;
+`
+
+export const Menu = styled.img`
+    @media screen and (min-width: 769px) {
+        display: none;
+    }
+`
+
+export const NavMobile = styled.nav`
+    position: absolute;
+    top: 10vh;
+    z-index: 1;
+    height: 25vh;
+    border: solid;
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+`
+
+export const UlMobile = styled.ul`
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
 `
