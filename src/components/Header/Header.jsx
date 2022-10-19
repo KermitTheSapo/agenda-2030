@@ -23,8 +23,8 @@ export default function Header(){
                     <S.Nav>
                         <S.Ul>
                             <S.LinkStyle to="/">Home</S.LinkStyle>
-                            <S.LinkStyle to="/health">Saúde e Bem-Estar</S.LinkStyle>
-                            <S.LinkStyle to="/infrastructure">Indústria, inovação e infraestrutura</S.LinkStyle>
+                            <S.LinkStyle to="/health">Saúde</S.LinkStyle>
+                            <S.LinkStyle to="/infrastructure">Indústria</S.LinkStyle>
                             <S.LinkStyle to="/education">Educação de qualidade</S.LinkStyle>
                             <S.LinkStyle to="/terrestrialLife">Vida terrestre</S.LinkStyle>
                         </S.Ul>

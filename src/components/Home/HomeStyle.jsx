@@ -15,3 +15,11 @@ export const Img = styled.img`
         width: 60%;
     }
 `
+
+export const Paragraph = styled.p`
+    width: 90%;
+    text-align: center;
+    @media screen and (min-width: 1200px) {
+        width: 100%;
+    }
+`

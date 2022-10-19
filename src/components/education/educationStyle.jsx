@@ -9,6 +9,12 @@ export const Div = styled.div`
     width: 100%;
     height: 90vh;
     background-color: var(--infrastructure-color);
+    @media screen and (max-width: 768px) {
+        height: 160vh;
+    }
+    @media screen and (max-width: 325px) {
+        height: 250vh;
+    }
 `
 
 export const Img = styled.img`
@@ -20,6 +26,10 @@ export const Top = styled.div`
     align-items: center;
     justify-content: space-evenly;
     width: 50%;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        width: 80%;
+    }
 `
 export const Nav = styled.nav`
     width:80%;
@@ -33,6 +43,12 @@ export const Ul = styled.ul`
     justify-content: space-evenly;
     flex-direction: column;
     height: 15vh;
+    @media screen and (max-width: 768px) {
+        height: 30vh;
+    }
+    @media screen and (max-width: 375px) {
+        height: 40vh;
+    }
 `
 
 export const Article = styled.article`
@@ -43,4 +59,10 @@ export const Article = styled.article`
     justify-content: space-evenly;
     flex-direction: column;
     height: 15vh;
+    @media screen and (max-width: 768px) {
+        height: 30vh;
+    }
+    @media screen and (max-width: 375px) {
+        height: 40vh;
+    }
 `

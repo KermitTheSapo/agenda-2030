@@ -6,13 +6,13 @@ export const HeaderContainer = styled.div`
 
 export const Title = styled.h1`
     color: var(--font);
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1024px) {
         display: none;
     }
 `
 export const TitleMobile = styled.h1`
     color: var(--font);
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 1025px) {
         display: none;
     }
 `
@@ -32,7 +32,13 @@ export const Ul = styled.ul`
 `
 
 export const Nav = styled.nav`
-    width: 70%;
+    width: 50%;
+    @media screen and (min-width: 1439px) {
+        width: 50%;
+    }
+    @media screen and (max-width: 1438px) {
+        width: 80%;
+    }
     @media screen and (max-width: 768px) {
         display: none;
     }
@@ -59,6 +65,9 @@ export const NavMobile = styled.nav`
     background-color: black;
     opacity: 0.8;
     width: 100%;
+    @media screen and (min-width: 769px) {
+        display: none;
+    }
 `
 
 export const UlMobile = styled.ul`
